@@ -5,7 +5,7 @@ import { Navbar, TextInput } from "flowbite-react";
 export default function Home() {
   return (
     <div>
-      <Navbar fluid className="bg-[#3854A1]">
+      <Navbar className="bg-[#3854A1]">
         <Image
           loading="eager"
           alt="notesicon"
@@ -14,8 +14,8 @@ export default function Home() {
         />
         <div>
           <TextInput
-            placeholder="search contacts..."
-            className="rounded-lg bg-white text-black"
+            className="rounded-lg bg-white text-black p-3"
+            placeholder="Search Pokemon..."
           />
         </div>
       </Navbar>
